@@ -1,0 +1,261 @@
+/* Загальні стилі */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* Хедер */
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-right: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+header nav a:hover,
+header nav a:focus {
+    color: #ff6b08;
+}
+
+header address ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header address ul li {
+    margin-right: 20px;
+}
+
+header address ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+header address ul li a:hover,
+header address ul li a:focus {
+    color: #ff6b08;
+}
+
+/* Герой секція */
+.hero {
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 60px;
+}
+
+.hero button {
+    background-color: #ff6b08;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+    background-color: #e65a00;
+}
+
+/* Секція Solutions */
+.features {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features ul li {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.features ul li:last-child {
+    margin-right: 0;
+}
+
+.features h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Секція Team */
+.team {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #F4F4FD;
+    margin-bottom: 60px;
+}
+
+.team ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team ul li {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.team ul li img {
+    width: 100%;
+    max-width: 264px;
+    margin-bottom: 20px;
+}
+
+.team ul li h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #2E2F42;
+}
+
+.team ul li p {
+    font-size: 16px;
+    color: #434455;
+}
+
+/* Секція Portfolio */
+.portfolio {
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.portfolio ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.portfolio ul li {
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 360px;
+    text-align: left;
+}
+
+.portfolio ul li img {
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 10px;
+}
+
+/* Футер */
+footer {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer p {
+    width: 264px;
+    height: 72px;
+    top: 3128px;
+    left: 156px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F4F4FD;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #ff6b08;
+}
