@@ -138,7 +138,7 @@ header address ul li a {
 
 .hero .hero-button:hover,
 .hero .hero-button:focus{
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 /* Секція Solutions */
