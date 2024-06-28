@@ -84,6 +84,7 @@ header address ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-style: normal;
 }
 
 header address ul li {
@@ -146,9 +147,12 @@ header address ul li a:focus {
     transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
+.hero-button:hover{
+    background-color: #404BBF;
+}
+
 .hero-button:focus {
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 /* Секція Solutions */
@@ -315,25 +319,18 @@ footer {
     background-color: #2d2d2d;
     text-align: center;
     color: #ffffff;
+    background-color: #2e2f42;
 }
 
-footer a {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
+.foot .sp-lg{
+    color: #f4f4fd;
 }
 
 footer a span {
     color: #ffffff;
 }
 
-footer p {
-    margin: 0;
-    font-size: 18px;
-    color: #ffffff;
-    margin-top: 10px;
+.foot .foot-p {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
