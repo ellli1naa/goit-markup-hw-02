@@ -123,7 +123,7 @@ header address ul li a {
     color: #ffffff;
 }
 
-.hero-button {
+.hero .hero-button {
     background-color: #4d5ae5;
     color: #ffffff;
     border: none;
@@ -136,8 +136,8 @@ header address ul li a {
     transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
-.hero-button:focus{
+.hero .hero-button:hover,
+.hero .hero-button:focus{
     background-color: #404BBF;
 }
 
@@ -150,7 +150,6 @@ header address ul li a {
 
 .features ul {
     list-style: none;
-    padding: 0;
     justify-content: space-between;
 }
 
