@@ -136,10 +136,12 @@ header address ul li a {
     transition: background-color 0.3s ease;
 }
 
-.hero .hero-button:hover,
-.hero .hero-button:focus{
+.hero .hero-button:hover{
     background-color: #404bbf;
-    color: #ffffff;
+}
+
+.hero .hero-button:focus {
+    background-color: #404bbf;
 }
 
 /* Секція Solutions */
