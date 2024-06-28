@@ -3,7 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     margin: 0;
-    padding: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -56,39 +55,31 @@ p {
 /* Хедер */
 header {
     background-color: #ffffff;
-    padding: 20px 40px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-header nav {
-    display: flex;
-    align-items: center;
+.nav-link-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-header nav a {
-    margin-right: 40px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #333333;
+.nav-link-studio:hover,
+.nav-link-studio:focus {
+    color: #404bbf;
 }
 
-header nav a:hover,
-header nav a:focus {
-    color: #ff6b08;
-}
-
-header address ul {
-    display: flex;
+.contact-info {
     list-style: none;
-    padding: 0;
     margin: 0;
     font-style: normal;
 }
 
-header address ul li {
+.adss {
     margin-right: 20px;
+    color: #434455;
 }
 
 header address ul li a {
@@ -96,9 +87,9 @@ header address ul li a {
     color: #333333;
 }
 
-header address ul li a:hover,
-header address ul li a:focus {
-    color: #ff6b08;
+.adss:hover,
+.adss:focus {
+    color: #404bbf;
 }
 
 /* Логотип */
@@ -121,7 +112,6 @@ header address ul li a:focus {
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 100px 20px;
     margin-bottom: 60px;
 }
 
@@ -137,7 +127,6 @@ header address ul li a:focus {
     background-color: #4d5ae5;
     color: #ffffff;
     border: none;
-    padding: 15px 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -147,17 +136,13 @@ header address ul li a:focus {
     transition: background-color 0.3s ease;
 }
 
-.hero-button:hover{
-    background-color: #404BBF;
-}
-
-.hero-button:focus {
+.hero-button:hover,
+.hero-button:focus{
     background-color: #404BBF;
 }
 
 /* Секція Solutions */
 .features {
-    padding: 40px 20px;
     background-color: #f8f8f8;
     margin-bottom: 60px;
     text-align: center;
@@ -166,7 +151,6 @@ header address ul li a:focus {
 .features ul {
     list-style: none;
     padding: 0;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -196,7 +180,6 @@ header address ul li a:focus {
 
 /* Секція Team */
 .team {
-    padding: 40px 20px;
     text-align: center;
     background-color: #F4F4FD;
     margin-bottom: 60px;
@@ -214,20 +197,15 @@ header address ul li a:focus {
 
 .team .team-list {
     list-style: none;
-    padding: 0;
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .team .team-member {
     background-color: #FFFFFF;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     flex: 1 0 264px;
     margin: 0 10px 20px;
     max-width: 264px;
-    padding: 20px;
     text-align: center;
 }
 
@@ -258,7 +236,6 @@ header address ul li a:focus {
 
 /* Секція Portfolio */
 .portfolio {
-    padding: 40px 20px;
     text-align: center;
     margin-bottom: 60px;
     background-color: #F4F4FD;
@@ -292,8 +269,6 @@ header address ul li a:focus {
 
 .portfolio ul {
     list-style: none;
-    padding: 0;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -303,19 +278,14 @@ header address ul li a:focus {
     max-width: 360px;
     margin: 10px;
     background-color: #FFFFFF;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .portfolio img {
-    width: 100%;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     margin-bottom: 10px;
 }
 
 /* Футер */
 footer {
-    padding: 20px 40px;
     background-color: #2d2d2d;
     text-align: center;
     color: #ffffff;
