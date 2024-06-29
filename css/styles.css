@@ -123,8 +123,8 @@ header address ul li a {
     color: #ffffff;
 }
 
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
