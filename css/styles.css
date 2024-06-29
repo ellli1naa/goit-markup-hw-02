@@ -2,61 +2,21 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    margin: 0;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.45;
     letter-spacing: 0.02em;
-    text-align: left;
     background-color: #FFFFFF;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    margin: 0;
+a {
+    text-decoration: none;
 }
 
-h1 {
-    font-size: 48px;
-    line-height: 1.2;
-    color: #ffffff;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
-h3 {
-    margin-bottom: 10px;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    margin-bottom: 20px;
+ul {
+    list-style-type: none;
 }
 
 /* Хедер */
-header {
-    background-color: #ffffff;
-    justify-content: space-between;
-}
 
 .nav-link-studio {
     font-weight: 500;
@@ -72,13 +32,10 @@ header {
 }
 
 .contact-info {
-    list-style: none;
-    margin: 0;
     font-style: normal;
 }
 
-.adss {
-    margin-right: 20px;
+.contact-link {
     color: #434455;
 }
 
@@ -87,8 +44,8 @@ header address ul li a {
     color: #333333;
 }
 
-.adss:hover,
-.adss:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
@@ -111,22 +68,18 @@ header address ul li a {
 /* Герой секція */
 .hero {
     background-color: #2e2f42;
-    text-align: center;
-    margin-bottom: 60px;
 }
 
-.hero .hero-title {
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #ffffff;
 }
 
-.hero .hero-button {
+.hero-button {
     background-color: #4d5ae5;
     color: #ffffff;
-    border: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -141,27 +94,8 @@ header address ul li a {
 }
 
 /* Секція Solutions */
-.features {
-    background-color: #f8f8f8;
-    margin-bottom: 60px;
-    text-align: center;
-}
 
-.features ul {
-    list-style: none;
-    justify-content: space-between;
-}
-
-.features ul li {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.features ul li:last-child {
-    margin-right: 0;
-}
-
-.features h3.feature-title {
+.feature-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -169,7 +103,7 @@ header address ul li a {
     color: #2e2f42;
 }
 
-.features p.feature-description {
+.feature-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -178,77 +112,49 @@ header address ul li a {
 
 /* Секція Team */
 .team {
-    text-align: center;
     background-color: #F4F4FD;
-    margin-bottom: 60px;
 }
 
-.team .section-title {
+.section-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 20px;
+    font-weight: 700;
 }
 
-.team .team-list {
-    list-style: none;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.team .team-member {
+.team-member {
     background-color: #FFFFFF;
-    flex: 1 0 264px;
-    margin: 0 10px 20px;
-    max-width: 264px;
-    text-align: center;
 }
 
-.team .team-member:last-child {
-    margin-right: 0;
-}
-
-.team .team-member img {
-    margin-bottom: 10px;
-}
-
-.team .team-member-name {
+.team-member-name {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 10px;
 }
 
-.team .team-member-role {
+.team-member-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 0;
 }
 
 /* Секція Portfolio */
-.portfolio {
-    text-align: center;
-    margin-bottom: 60px;
-    background-color: #F4F4FD;
-}
 
-.portfolio .section-portfolio {
+.section-portfolio {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    font-weight: 700; 
 }
 
-.portfolio .portfolio-name {
+.portfolio-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -257,48 +163,25 @@ header address ul li a {
     text-align: left;
 }
 
-.portfolio .portfolio-role {
+.portfolio-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: left;
-}
-
-.portfolio ul {
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.portfolio ul li {
-    flex: 1;
-    max-width: 360px;
-    margin: 10px;
-    background-color: #FFFFFF;
-}
-
-.portfolio img {
-    margin-bottom: 10px;
 }
 
 /* Футер */
 footer {
-    background-color: #2d2d2d;
-    text-align: center;
-    color: #ffffff;
     background-color: #2e2f42;
 }
 
-.foot .sp-lg{
+.foot .logo2{
     color: #f4f4fd;
 }
 
-footer a span {
-    color: #ffffff;
-}
-
 .foot .foot-p {
+    font-size: 16px;
+    line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
