@@ -123,11 +123,6 @@ header address ul li a {
     color: #ffffff;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF;
-}
-
 .hero .hero-button {
     background-color: #4d5ae5;
     color: #ffffff;
@@ -138,6 +133,11 @@ header address ul li a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 /* Секція Solutions */
